@@ -1,0 +1,53 @@
+{
+  "trips": [
+    {
+      "id": "tokyo-2026",
+      "title": "🇯🇵 2026 日本東京與近郊 4人行",
+      "dates": "2026/01/10 (六) - 2026/01/18 (日)",
+      "coverImage": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=2070&auto=format&fit=crop",
+      "summary": [
+        { "label": "3人組", "text": "虎航/華航 (羽田進/成田T2出)" },
+        { "label": "Yui", "text": "長榮 (成田T1進出)" }
+      ],
+      "notices": [
+        {
+          "type": "warning",
+          "content": "租車嚴重提醒：4位成人 + 4件大行李，普通轎車絕對放不下！租車時請務必指定 Wish / Sienta / Noah / Voxy / Serena 等 7-8 人座箱型車 (Minivan)。"
+        }
+      ],
+      "preparation": [
+        {
+          "id": "docs",
+          "title": "證件文件",
+          "icon": "passport",
+          "items": [
+            { "id": "p1", "name": "VJW (Visit Japan Web)", "note": "4人皆需填寫並截圖QR Code (入境+海關)" },
+            { "id": "p2", "name": "護照", "note": "有效期需6個月以上" },
+            { "id": "p3", "name": "台灣駕照正本", "note": "租車必備 (正本一定要帶)" },
+            { "id": "p4", "name": "駕照日文譯本", "note": "監理所申請，期限內" }
+          ]
+        }
+      ],
+      "itinerary": [
+        {
+          "dayNum": 1,
+          "date": "1/10 (六)",
+          "title": "抵達羽田 & 淺草夜遊",
+          "hotel": "Super Hotel 淺草",
+          "weather": { "condition": "Sunny", "tempHigh": 9, "tempLow": 2, "precipChance": 10 },
+          "events": [
+            {
+              "id": "d1-e1",
+              "time": "04:00",
+              "title": "抵達羽田機場 (HND)",
+              "category": "flight",
+              "tags": [{ "label": "3人組", "color": "blue" }],
+              "transport": { "mode": "flight", "code": "IT216", "arr": "T3" },
+              "description": ["辦理入境、領行李 (預計 1 小時)。"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
