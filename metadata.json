@@ -1,0 +1,5 @@
+{
+  "name": "Travel Log & Planner",
+  "description": "A React-based travel itinerary planner with local storage checklists and structured JSON data.",
+  "requestFramePermissions": []
+}
