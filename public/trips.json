@@ -10,41 +10,81 @@
         { "label": "Yui", "text": "長榮 (成田T1進出)" }
       ],
       "notices": [
-        {
-          "type": "warning",
-          "content": "租車嚴重提醒：4位成人 + 4件大行李，普通轎車絕對放不下！租車時請務必指定 Wish / Sienta / Noah / Voxy / Serena 等 7-8 人座箱型車 (Minivan)。"
-        }
-      ],
-      "preparation": [
-        {
-          "id": "docs",
-          "title": "證件文件",
-          "icon": "passport",
-          "items": [
-            { "id": "p1", "name": "VJW (Visit Japan Web)", "note": "4人皆需填寫並截圖QR Code (入境+海關)" },
-            { "id": "p2", "name": "護照", "note": "有效期需6個月以上" },
-            { "id": "p3", "name": "台灣駕照正本", "note": "租車必備 (正本一定要帶)" },
-            { "id": "p4", "name": "駕照日文譯本", "note": "監理所申請，期限內" }
-          ]
-        }
+        { "type": "warning", "content": "租車提醒：4人+4大行李請務必租 Minivan (Noah/Voxy)。" },
+        { "type": "info", "content": "1月氣溫極低，建議洋蔥式穿法。" }
       ],
       "itinerary": [
         {
           "dayNum": 1,
           "date": "1/10 (六)",
           "title": "抵達羽田 & 淺草夜遊",
-          "hotel": "Super Hotel 淺草",
-          "weather": { "condition": "Sunny", "tempHigh": 9, "tempLow": 2, "precipChance": 10 },
           "events": [
-            {
-              "id": "d1-e1",
-              "time": "04:00",
-              "title": "抵達羽田機場 (HND)",
-              "category": "flight",
-              "tags": [{ "label": "3人組", "color": "blue" }],
-              "transport": { "mode": "flight", "code": "IT216", "arr": "T3" },
-              "description": ["辦理入境、領行李 (預計 1 小時)。"]
-            }
+            { "time": "04:00", "title": "抵達羽田機場", "description": ["辦理入境、領行李"] },
+            { "time": "19:00", "title": "鳥貴族 慶功宴", "description": ["居酒屋晚餐"] }
+          ]
+        },
+        {
+          "dayNum": 2,
+          "date": "1/11 (日)",
+          "title": "上野與龜有",
+          "events": [
+            { "time": "10:00", "title": "上野公園散策", "description": ["二木菓子採買"] }
+          ]
+        },
+        {
+          "dayNum": 3,
+          "date": "1/12 (一)",
+          "title": "箱根自駕",
+          "events": [
+            { "time": "09:00", "title": "取車出發", "description": ["Toyota Rent a Car"] }
+          ]
+        },
+        {
+          "dayNum": 4,
+          "date": "1/13 (二)",
+          "title": "御殿場 & 河口湖",
+          "events": [
+            { "time": "10:00", "title": "Gotemba Outlet", "description": ["富士山風景購物"] }
+          ]
+        },
+        {
+          "dayNum": 5,
+          "date": "1/14 (三)",
+          "title": "逆富士攝影",
+          "events": [
+            { "time": "07:00", "title": "新倉山淺間神社", "description": ["拍攝五重塔"] }
+          ]
+        },
+        {
+          "dayNum": 6,
+          "date": "1/15 (四)",
+          "title": "鎌倉江之島",
+          "events": [
+            { "time": "09:00", "title": "江之電巡禮", "description": ["灌籃高手平交道"] }
+          ]
+        },
+        {
+          "dayNum": 7,
+          "date": "1/16 (五)",
+          "title": "澀谷購物",
+          "events": [
+            { "time": "16:00", "title": "Shibuya Sky", "description": ["夜景欣賞"] }
+          ]
+        },
+        {
+          "dayNum": 8,
+          "date": "1/17 (六)",
+          "title": "池袋深度遊",
+          "events": [
+            { "time": "11:00", "title": "太陽城購物", "description": ["陽光水族館"] }
+          ]
+        },
+        {
+          "dayNum": 9,
+          "date": "1/18 (日)",
+          "title": "回程返台",
+          "events": [
+            { "time": "14:35", "title": "成田起飛", "description": ["期待下次旅行"] }
           ]
         }
       ]

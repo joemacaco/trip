@@ -1,5 +1,5 @@
 {
-  "name": "Travel Log & Planner",
-  "description": "A React-based travel itinerary planner with local storage checklists and structured JSON data.",
+  "name": "Japan 2026 Travel Planner",
+  "description": "A robust Vanilla JS travel itinerary planner with interactive features and local storage checklists.",
   "requestFramePermissions": []
 }
