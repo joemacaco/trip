@@ -1,6 +1,6 @@
 {
-  "short_name": "TravelLog",
-  "name": "Japan 2026 Travel Log",
+  "short_name": "TravelBlog",
+  "name": "Travel Blog",
   "icons": [
     {
       "src": "https://cdn-icons-png.flaticon.com/512/201/201623.png",
@@ -13,7 +13,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "/trip/",
   "display": "standalone",
   "theme_color": "#0f172a",
   "background_color": "#f4f7f6"
